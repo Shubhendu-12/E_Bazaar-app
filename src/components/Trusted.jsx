@@ -8,13 +8,13 @@ import bolsBlue from '../assets/logo/bols-blue.svg'
 const Trusted = () => {
   return (
     <>
-      <div className='px-8 my-6 mx-auto'>
+      <div className='px-8  mx-auto'>
         {/* Main div */}
         <div className='flex items-center justify-center font-semibold my-6'>
             {/* 1st div */}
             Trusted by 1000+ companies
         </div>
-        <div className='px-8 mx-4 flex items-center justify-center'>
+        <div className='px-4 mx-40 h-20 flex items-center justify-around gap-x-4 max-sm:flex-col max-md:flex-col'>
             {/* 2nd div */}
             <div className=' mx-4 px-4 '>
             <img className='h-12 w-12' src={souzparket} alt="logo" />

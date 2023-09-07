@@ -8,7 +8,7 @@ import {RiSecurePaymentLine} from 'react-icons/ri';
 const Services = () => {
   return (
     <>
-    <div className='container items-center flex justify-center md:block lg:flex sm:block'>
+    <div className=' items-center flex justify-center max-sm:flex-col max-md:flex-col'>
      {/* Main div  */}
      <div className='px-5 pt-8' > 
         {/* 1st div */}
@@ -45,7 +45,7 @@ const Services = () => {
      </div>
      </div>
 
-     <div className='px-5 pt-8'>
+     <div className='px-5 pt-8 md:px-auto sm:px-auto'>
         {/* 3rd div  */}
         <div class="max-w-sm p-6 h-64 pt-24 bg-blue-50 border border-blue-50 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
      <div className=' flex justify-center mr-8'> <RiSecurePaymentLine size={32} /></div> 
