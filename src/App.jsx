@@ -6,6 +6,7 @@ import Home from './Home';
 import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
 import ErrorPage from './components/ErrorPage';
+import SingleProduct from './components/SingleProduct';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
      <Route path ="/" element={<Home/>}/>
      <Route path='contactUs' element={<ContactUs/>}/>
      <Route path='*' element={<ErrorPage/>}/>
+     <Route path="/singleproduct/:id" element={<SingleProduct/>} />
     </Routes>
     <Footer/>
     </Router>
