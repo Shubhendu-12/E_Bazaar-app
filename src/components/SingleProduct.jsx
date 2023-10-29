@@ -43,6 +43,7 @@ const SingleProduct = () => {
     <BreadCrumb title={name}/>
     <div>
       single product page,{name} ,{id}, {price}, {description};
+
       </div>
       <div >
             <h2>{name}</h2>
