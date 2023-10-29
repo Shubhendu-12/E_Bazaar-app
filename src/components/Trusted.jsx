@@ -14,23 +14,23 @@ const Trusted = () => {
             {/* 1st div */}
             Trusted by 1000+ companies
         </div>
-        <div className='px-4 mx-40 h-20 flex items-center justify-around gap-x-4 max-sm:flex-col max-md:flex-col'>
+        <div className='px-4 mx-40 h-20 flex items-center justify-around gap-x-4 max-sm:flex-col max-md:flex-col max-sm:h-auto max-md:h-auto '>
             {/* 2nd div */}
-            <div className=' mx-4 px-4 '>
+            <div className=' mx-4 px-4 max-sm:py-1 max-md:py-1'>
             <img className='h-12 w-12' src={souzparket} alt="logo" />
             </div>  
             <div className='mx-4 px-4'>
             <img className='h-12 w-12 ' src={titaniumBlockchain} alt="logo" />
 
             </div>
-            <div className=' mx-4 px-4'>
+            <div className=' mx-4 px-4 max-sm:py-1 max-md:py-1'>
             <img className='h-16 w-16' src={globalCollect} alt="logo" />
             </div>
 
             <div className=' mx-4 px-4'>
             <img className='h-12 w-12' src={vitoria} alt="logo" />
             </div>
-            <div className=' mx-4 px-4'>
+            <div className=' mx-4 px-4 max-sm:py-1 max-md:py-1'>
             <img className='h-12 w-12' src={bolsBlue} alt="logo" />
 
             </div>

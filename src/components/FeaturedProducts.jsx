@@ -22,7 +22,7 @@ const FeaturedProducts = () => {
       {/* 2nd div  */}
       Our Feature Services 
       </div>
-      <div className='flex mx-20 px-6 h-auto justify-around'>
+      <div className='flex mx-20 px-6 h-auto justify-around max-sm:flex-col max-md:flex-col'>
         {featureProducts.map((curElem)=> {
             return <Products key={curElem.id} {...curElem}/>
         })}
